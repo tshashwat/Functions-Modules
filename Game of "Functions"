@@ -1,0 +1,5 @@
+list1 = list(map(int, input("Enter the list numbers separated by space ").split()))
+add=0
+for i in range(len(list1)):
+    add=add+list1[i]
+print(add)
