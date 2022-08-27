@@ -1,0 +1,11 @@
+str1=input("Enter the string")
+upper_char=['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+flag=0
+flag_lower=0
+for i in range(len(str1)):
+    if str1[i] in upper_char:
+        flag=flag+1
+    if str1[i] not in upper_char and str1[i]!=' ':
+        flag_lower=flag_lower+1
+print("No. of Upper case characters :",flag)
+print("No. of Lower case Characters :",flag_lower) 
